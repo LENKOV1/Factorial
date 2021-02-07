@@ -1,2 +1,2 @@
 def factorial(param):
-    return int(1)
+    return int(param)
