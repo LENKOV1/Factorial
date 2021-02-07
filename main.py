@@ -1,2 +1,5 @@
 def factorial(param):
-    return int(1)
+    if param <= 2:
+        return int(param)
+    else:
+        return int(param)*2
