@@ -1,2 +1,2 @@
 def test_nothing():
-    assert 1 == 0
+    assert main.factorial(1) == 1
