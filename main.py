@@ -1,5 +1,5 @@
 def factorial(param):
-    if param <= 2:
-        return int(param)
-    else:
-        return int(param)*2
+    res = 1
+    for i in range(1, param+1):
+        res *= i
+    return res
